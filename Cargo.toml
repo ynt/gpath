@@ -1,0 +1,7 @@
+[package]
+name = "gpath"
+version = "0.1.0"
+authors = ["gladmo <mo@gladmo.com>"]
+
+[dependencies]
+regex = "0.2.5"
