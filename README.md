@@ -10,5 +10,8 @@ $ path/to/gpath
 
 alias you want use GOPATH
 ```
-alias go="`path/to/gpath` go"
+alias go='export GOPATH=$(/usr/local/bin/gpath); go'
+
+alias dep='export GOPATH=$(/usr/local/bin/gpath); dep'
+alias glide='export GOPATH=$(/usr/local/bin/gpath); glide'
 ```
